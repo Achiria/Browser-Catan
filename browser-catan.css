@@ -94,12 +94,12 @@ body {
     border: 2px solid black;
 }
 
-.roadSlotLeft {
+.roadSlot.left {
     margin-left: -8px;
     margin-top: 4px;
 }
 
-.roadSlotTopLeft {
+.roadSlot.topLeft {
     -ms-transform: rotate(60deg);
     -webkit-transform: rotate(60deg);
     transform: rotate(60deg);
@@ -107,7 +107,7 @@ body {
     margin-top: -43px;
 }
 
-.roadSlotTopRight {
+.roadSlot.topRight {
     -ms-transform: rotate(120deg);
     -webkit-transform: rotate(120deg);
     transform: rotate(120deg);
@@ -115,12 +115,12 @@ body {
     margin-top: -43px;
 }
 
-.roadSlotRight {
+.roadSlot.right {
     margin-left: 99px;
     margin-top: 4px;
 }
 
-.roadSlotBottomRight {
+.roadSlot.bottomRight {
     -ms-transform: rotate(60deg);
     -webkit-transform: rotate(60deg);
     transform: rotate(60deg);
@@ -128,12 +128,30 @@ body {
     margin-top: 50px;
 }
 
-.roadSlotBottomLeft {
+.roadSlot.bottomLeft {
     -ms-transform: rotate(120deg);
     -webkit-transform: rotate(120deg);
     transform: rotate(120deg);
     margin-left: 18px;
     margin-top: 50px;
+}
+
+.settlementSlot {
+}
+
+.settlementSlot .roof {
+    width: 0;
+    border-bottom: 10px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.settlementSlot .base {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 10px;
+    background-color: red;
 }
 
 .water .top {
