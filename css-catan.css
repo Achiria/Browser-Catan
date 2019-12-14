@@ -1,0 +1,149 @@
+root {
+    --sheep-color: #1db546;
+    --brick-color: #b5401d;
+    --ore-color: #737373;
+    --hay-color: #f0d448;
+    --wood-color: #036618;
+    --water-color: #47a7f5;
+    
+    --blue: #0000ff;
+    --red: #ff0000;
+    --green: #00ff00;
+    --white: #ffffff;
+}
+
+body {
+    background-color: white;
+}
+
+.board {
+}
+
+.tile-row {
+    clear: left;
+}
+
+.row1 {
+    margin-left: 212px;
+}
+
+.row2 {
+    margin-left: 159px;
+}
+
+.row3 {
+    margin-left: 106px;
+}
+
+.row4 {
+    margin-left: 53px;
+}
+
+.row5 {
+    margin-left: 0px;
+}
+
+.tile {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+}
+
+.tile .top {
+    width: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.tile .middle {
+    width: 104px;
+    height: 60px;
+    background: #6C6;
+}
+
+.tile .bottom {
+    width: 0;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.tile .numberCircle {
+    height: 35px;
+    width: 35px;
+    background-color: tan;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 32.5px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.roadSlot {
+    width: 9px;
+    height: 50px;
+    position: absolute;
+}
+
+.roadSlot.selectable:hover {
+    border: 2px solid red;
+}
+
+.roadSlot.selectable {
+    border: 2px solid black;
+}
+
+.roadSlotLeft {
+    margin-left: -8px;
+    margin-top: 4px;
+}
+
+.roadSlotTopLeft {
+    -ms-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+    margin-left: 18px;
+    margin-top: -43px;
+}
+
+.roadSlotTopRight {
+    -ms-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    margin-left: 73px;
+    margin-top: -43px;
+}
+
+.roadSlotRight {
+    margin-left: 99px;
+    margin-top: 4px;
+}
+
+.roadSlotBottomRight {
+    -ms-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+    margin-left: 73px;
+    margin-top: 50px;
+}
+
+.roadSlotBottomLeft {
+    -ms-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    margin-left: 18px;
+    margin-top: 50px;
+}
+
+.water .top {
+    border-bottom: 30px solid blue;
+}
+
+.water .middle {
+    background: blue;
+}
+
+.water .bottom { 
+    border-top: 30px solid blue;
+}
