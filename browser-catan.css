@@ -1,4 +1,6 @@
-root {
+:root {
+    --number-chit-color: tan;
+
     --sheep-color: #1db546;
     --brick-color: #b5401d;
     --ore-color: #737373;
@@ -44,6 +46,7 @@ body {
 }
 
 .tile {
+    z-index: 0;
     float: left;
     margin-left: 3px;
     margin-bottom: -26px;
@@ -51,7 +54,7 @@ body {
 
 .tile .top {
     width: 0;
-    border-bottom: 30px solid #6C6;
+    border-bottom: 30px solid var(--sheep-color);
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
@@ -59,12 +62,12 @@ body {
 .tile .middle {
     width: 104px;
     height: 60px;
-    background: #6C6;
+    background: var(--sheep-color);
 }
 
 .tile .bottom {
     width: 0;
-    border-top: 30px solid #6C6;
+    border-top: 30px solid var(--sheep-color);
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
@@ -72,7 +75,7 @@ body {
 .tile .numberCircle {
     height: 35px;
     width: 35px;
-    background-color: tan;
+    background-color: var(--number-chit-color);
     border-radius: 50%;
     border: 2px solid black;
     margin-left: 32.5px;
@@ -81,9 +84,11 @@ body {
 }
 
 .roadSlot {
+    z-index: 1;
     width: 9px;
     height: 50px;
     position: absolute;
+    background-color: ;
 }
 
 .roadSlot.selectable:hover {
@@ -136,32 +141,91 @@ body {
     margin-top: 50px;
 }
 
-.settlementSlot {
-}
-
-.settlementSlot .roof {
-    width: 0;
-    border-bottom: 10px solid red;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-}
-
-.settlementSlot .base {
-    width: 20px;
-    height: 20px;
+.buildingSlot {
     position: absolute;
-    margin-top: 10px;
+    z-index: 2;
+}
+
+.buildingSlot.buildingTopLeft {
+    margin-top: -16px;
+    margin-left: -11px;
+}
+
+.buildingSlot.buildingTop {
+    margin-top: -44px;
+    margin-left: 42.5px;
+}
+
+.buildingSlot.buildingTopRight {
+    margin-top: -16px;
+    margin-left: 96px;
+}
+
+.buildingSlot.buildingBottomLeft {
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.buildingSlot.buildingBottom {
+    margin-top: 78px;
+    margin-left: 42.5px;
+}
+
+.buildingSlot.buildingBottomRight {
+    margin-top: 50px;
+    margin-left: 96px;
+}
+
+.settlement .roof {
+    width: 0;
+    border-bottom: 9px solid red;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+}
+
+.settlement .base {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    margin-top: 9px;
+    background-color: red;
+}
+
+.city {
+    position: absolute;
+    margin-left:  0px;
+}
+
+.city .roof {
+    width: 0;
+    margin-top: -24px;
+    border-bottom: 8px solid red;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.city .tower {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+}
+
+.city .base {
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    margin-top: 8px;
     background-color: red;
 }
 
 .water .top {
-    border-bottom: 30px solid blue;
+    border-bottom: 30px solid var(--water-color);
 }
 
 .water .middle {
-    background: blue;
+    background: var(--water-color);
 }
 
 .water .bottom { 
-    border-top: 30px solid blue;
+    border-top: 30px solid var(--water-color);
 }

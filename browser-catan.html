@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <link rel="stylesheet" type="text/css" href="browser-catan.css">
+
 <body>
     <div class="board">
         <div style="float: left; width: 900px;">
@@ -39,9 +40,27 @@
                         <div class="roadSlot1 roadSlot left selectable "></div>
                         <div class="roadSlot2 roadSlot topLeft selectable "></div>
                         <div class="roadSlot3 roadSlot topRight selectable "></div>
-                        <div class="settlementSlot1 settlementSlot bottomLeft">
-                            <div class="base"></div>
-                            <div class="roof"></div>
+                        <div class="buildingSlot1 buildingSlot buildingTopLeft">
+                            <div class="settlement1 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                            <!-- <div class="city1 city">
+                                <div class="base"></div>
+                                <div class="tower"></div>
+                                <div class="roof"></div>
+                            </div> -->
+                        </div>
+                        <div class="buildingSlot2 buildingSlot buildingTop">
+                            <div class="settlement2 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                            <!-- <div class="city2 city">
+                                <div class="base"></div>
+                                <div class="tower"></div>
+                                <div class="roof"></div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="bottom"></div>
@@ -53,18 +72,48 @@
                         <div class="roadSlot1 roadSlot left selectable "></div>
                         <div class="roadSlot2 roadSlot topLeft selectable "></div>
                         <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot3 buildingSlot buildingTopLeft">
+                            <div class="settlement3 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot4 buildingSlot buildingTop">
+                            <div class="settlement4 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile8 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle3 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="numberCircle3 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="buildingSlot5 buildingSlot buildingTopLeft">
+                            <div class="settlement5 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot6 buildingSlot buildingTop">
+                            <div class="settlement6 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot7 buildingSlot buildingTopRight">
+                            <div class="settlement7 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile9 tile water">
@@ -82,42 +131,96 @@
                 <div class="tile11 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle4 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle4 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot8 buildingSlot buildingTopLeft">
+                            <div class="settlement8 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot9 buildingSlot buildingTop">
+                            <div class="settlement9 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile12 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle5 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle5 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot10 buildingSlot buildingTopLeft">
+                            <div class="settlement10 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot11 buildingSlot buildingTop">
+                            <div class="settlement11 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile13 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle6 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle6 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot12 buildingSlot buildingTopLeft">
+                            <div class="settlement12 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot13 buildingSlot buildingTop">
+                            <div class="settlement13 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile14 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle7 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="numberCircle7 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="buildingSlot14 buildingSlot buildingTopLeft">
+                            <div class="settlement14 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot15 buildingSlot buildingTop">
+                            <div class="settlement15 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot16 buildingSlot buildingTopRight">
+                            <div class="settlement16 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile15 tile water">
@@ -135,52 +238,118 @@
                 <div class="tile17 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle8 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle8 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot17 buildingSlot buildingTopLeft">
+                            <div class="settlement17 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot18 buildingSlot buildingTop">
+                            <div class="settlement18 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile18 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle9 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle9 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot19 buildingSlot buildingTopLeft">
+                            <div class="settlement19 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot20 buildingSlot buildingTop">
+                            <div class="settlement20 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile19 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle10 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle10 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot21 buildingSlot buildingTopLeft">
+                            <div class="settlement21 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot22 buildingSlot buildingTop">
+                            <div class="settlement22 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile20 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle11 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle11 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot23 buildingSlot buildingTopLeft">
+                            <div class="settlement23 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot24 buildingSlot buildingTop">
+                            <div class="settlement24 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile21 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle12 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="numberCircle12 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="buildingSlot25 buildingSlot buildingTopLeft">
+                            <div class="settlement25 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot26 buildingSlot buildingTop">
+                            <div class="settlement26 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot27 buildingSlot buildingTopRight">
+                            <div class="settlement27 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile22 tile water">
@@ -198,64 +367,154 @@
                 <div class="tile23 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle13 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="numberCircle13 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="buildingSlot28 buildingSlot buildingTopLeft">
+                            <div class="settlement28 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot29 buildingSlot buildingTop">
+                            <div class="settlement29 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot30 buildingSlot buildingBottomLeft">
+                            <div class="settlement30 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile24 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle14 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle14 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot31 buildingSlot buildingTopLeft">
+                            <div class="settlement31 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot32 buildingSlot buildingTop">
+                            <div class="settlement32 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile25 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle15 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle15 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot33 buildingSlot buildingTopLeft">
+                            <div class="settlement33 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot34 buildingSlot buildingTop">
+                            <div class="settlement34 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile26 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle16 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle16 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot35 buildingSlot buildingTopLeft">
+                            <div class="settlement35 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot36 buildingSlot buildingTop">
+                            <div class="settlement36 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile27 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle17 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle17 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot37 buildingSlot buildingTopLeft">
+                            <div class="settlement37 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot38 buildingSlot buildingTop">
+                            <div class="settlement38 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile28 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle18 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot right selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="numberCircle18 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="buildingSlot39 buildingSlot buildingTopLeft">
+                            <div class="settlement39 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot40 buildingSlot buildingTop">
+                            <div class="settlement40 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot41 buildingSlot buildingTopRight">
+                            <div class="settlement41 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot41 buildingSlot buildingBottomRight">
+                            <div class="settlement41 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile29 tile water">
@@ -273,54 +532,132 @@
                 <div class="tile31 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle19 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="numberCircle19 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="buildingSlot42 buildingSlot buildingTopLeft">
+                            <div class="settlement42 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot43 buildingSlot buildingTop">
+                            <div class="settlement43 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot44 buildingSlot buildingBottomLeft">
+                            <div class="settlement44 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile32 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle20 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle20 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot45 buildingSlot buildingTopLeft">
+                            <div class="settlement45 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot46 buildingSlot buildingTop">
+                            <div class="settlement46 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile33 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle21 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle21 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot47 buildingSlot buildingTopLeft">
+                            <div class="settlement47 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot48 buildingSlot buildingTop">
+                            <div class="settlement48 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile34 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle22 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle22 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot49 buildingSlot buildingTopLeft">
+                            <div class="settlement49 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot50 buildingSlot buildingTop">
+                            <div class="settlement50 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile35 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle23 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot right selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="numberCircle23 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="buildingSlot51 buildingSlot buildingTopLeft">
+                            <div class="settlement51 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot52 buildingSlot buildingTop">
+                            <div class="settlement52 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot53 buildingSlot buildingTopRight">
+                            <div class="settlement53 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot54 buildingSlot buildingBottomRight">
+                            <div class="settlement54 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile36 tile water">
@@ -338,44 +675,110 @@
                 <div class="tile38 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle24 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="numberCircle24 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="buildingSlot55 buildingSlot buildingTopLeft">
+                            <div class="settlement55 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot56 buildingSlot buildingTop">
+                            <div class="settlement56 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot57 buildingSlot buildingBottomLeft">
+                            <div class="settlement57 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile39 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle25 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle25 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot58 buildingSlot buildingTopLeft">
+                            <div class="settlement58 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot59 buildingSlot buildingTop">
+                            <div class="settlement59 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile40 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle26 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="numberCircle26 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="buildingSlot60 buildingSlot buildingTopLeft">
+                            <div class="settlement60 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot61 buildingSlot buildingTop">
+                            <div class="settlement61 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile41 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle27 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot right selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="numberCircle27 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="buildingSlot62 buildingSlot buildingTopLeft">
+                            <div class="settlement62 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot63 buildingSlot buildingTop">
+                            <div class="settlement63 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot64 buildingSlot buildingTopRight">
+                            <div class="settlement64 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot65 buildingSlot buildingBottomRight">
+                            <div class="settlement65 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile42 tile water">
@@ -393,38 +796,122 @@
                 <div class="tile44 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle28 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomRight selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="numberCircle28 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="buildingSlot65 buildingSlot buildingTopLeft">
+                            <div class="settlement65 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot66 buildingSlot buildingTop">
+                            <div class="settlement66 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot67 buildingSlot buildingBottomLeft">
+                            <div class="settlement67 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot68 buildingSlot buildingBottom">
+                            <div class="settlement68 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile45 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle29 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomRight selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="numberCircle29 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="buildingSlot69 buildingSlot buildingTopLeft">
+                            <div class="settlement69 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot70 buildingSlot buildingTop">
+                            <div class="settlement70 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot71 buildingSlot buildingBottomLeft">
+                            <div class="settlement71 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot72 buildingSlot buildingBottom">
+                            <div class="settlement72 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile46 tile">
                     <div class="top"></div>
                     <div class="middle">
-                            <div class="numberCircle30 numberCircle"></div>
-                            <div class="roadSlot1 roadSlot left selectable "></div>
-                            <div class="roadSlot2 roadSlot topLeft selectable "></div>
-                            <div class="roadSlot3 roadSlot topRight selectable "></div>
-                            <div class="roadSlot3 roadSlot right selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomRight selectable "></div>
-                            <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="numberCircle30 numberCircle"></div>
+                        <div class="roadSlot1 roadSlot left selectable "></div>
+                        <div class="roadSlot2 roadSlot topLeft selectable "></div>
+                        <div class="roadSlot3 roadSlot topRight selectable "></div>
+                        <div class="roadSlot3 roadSlot right selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomRight selectable "></div>
+                        <div class="roadSlot3 roadSlot bottomLeft selectable "></div>
+                        <div class="buildingSlot73 buildingSlot buildingTopLeft">
+                            <div class="settlement73 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
                         </div>
+                        <div class="buildingSlot74 buildingSlot buildingTop">
+                            <div class="settlement74 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot75 buildingSlot buildingTopRight">
+                            <div class="settlement75 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot76 buildingSlot buildingBottomLeft">
+                            <div class="settlement76 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot77 buildingSlot buildingBottom">
+                            <div class="settlement77 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                        <div class="buildingSlot78 buildingSlot buildingBottomRight">
+                            <div class="settlement78 settlement">
+                                <div class="base"></div>
+                                <div class="roof"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="bottom"></div>
                 </div>
                 <div class="tile47 tile water">
@@ -458,4 +945,5 @@
         </div>
     </div>
 </body>
+
 </html>
