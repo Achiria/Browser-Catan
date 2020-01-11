@@ -88,15 +88,15 @@ body {
     width: 9px;
     height: 50px;
     position: absolute;
-    background-color: ;
-}
-
-.roadSlot.selectable:hover {
-    border: 2px solid red;
+    /* background-color: ; */
 }
 
 .roadSlot.selectable {
     border: 2px solid black;
+}
+
+.roadSlot.selectable:hover {
+    border: 2px solid red;
 }
 
 .roadSlot.left {
@@ -176,9 +176,13 @@ body {
     margin-left: 96px;
 }
 
+.settlement {
+    display: none;
+}
+
 .settlement .roof {
     width: 0;
-    border-bottom: 9px solid red;
+    border-bottom: 9px solid black;
     border-left: 9px solid transparent;
     border-right: 9px solid transparent;
 }
@@ -188,18 +192,27 @@ body {
     height: 16px;
     position: absolute;
     margin-top: 9px;
+    background-color: black;
+}
+
+.settlement .roof:hover {
+    border-bottom: 9px solid red;
+}
+
+.settlement .base:hover {
     background-color: red;
 }
 
 .city {
+    display: none;
     position: absolute;
-    margin-left:  0px;
+    margin-left:  -2px;
 }
 
 .city .roof {
     width: 0;
     margin-top: -24px;
-    border-bottom: 8px solid red;
+    border-bottom: 8px solid black;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
 }
@@ -207,7 +220,7 @@ body {
 .city .tower {
     width: 16px;
     height: 16px;
-    background-color: red;
+    background-color: black;
 }
 
 .city .base {
@@ -215,7 +228,7 @@ body {
     height: 16px;
     position: absolute;
     margin-top: 8px;
-    background-color: red;
+    background-color: black;
 }
 
 .water .top {
