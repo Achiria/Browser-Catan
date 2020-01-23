@@ -2,6 +2,8 @@ var placingRoad = false;
 var placingSettlement = false;
 var placingCity = false;
 
+placeRoad();
+
 function placeRoad() {
     if (!placingRoad) {
         placingRoad = true;
